@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 20px 0;
+
+    height: 410px;
+    width: 600px;
+
+    overflow: hidden;
+    /* background-color: hotpink; */
+}
+
+.message-box {
+    display: flex;
+    gap: 10px;
+}
+
+.user-name {
+    color: #61afef;
+}
+.user-message {
+    color: #98c379;
+}
+
+/* 41 */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+}

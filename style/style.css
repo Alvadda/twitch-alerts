@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+}
+
+.hide {
+    display: none;
+}
+
+.new-follower {
+    width: 41ch;
+    border-right: 2px solid #528bff;
+
+    text-align: center;
+    color: rgb(245, 222, 179);
+    font-size: 25px;
+    font-weight: 600;
+    white-space: nowrap;
+
+    overflow: hidden;
+}
+
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+/* 41 */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #528bff;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.type {
+    color: #c170d8;
+}
+.variable-name {
+    color: #d19a60;
+}
+.oprerator {
+    color: #51aebe;
+}
+.function {
+    color: #61afef;
+}
+.klamma {
+    color: #ffd700;
+}
+.klamma-schweif {
+    color: #da6ecc;
+}
+.key {
+    color: #e06c62;
+}
+.string {
+    color: #98c379;
+}
